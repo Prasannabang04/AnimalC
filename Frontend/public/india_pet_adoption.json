@@ -1,0 +1,468 @@
+{
+  "data": [
+      {
+          "state_id": 1,
+          "state_name": "Uttar Pradesh",
+          "cities": [
+              {
+                  "city_name": "Lucknow",
+                  "adoption_centers": [
+                      {
+                          "id": 1,
+                          "name": "Lucky Paws Adoption Centre",
+                          "address": "Sector 15, Indira Nagar, Lucknow",
+                          "contact": "0522-1234567",
+                          "pets_available": [
+                              {
+                                  "name": "Sheru",
+                                  "age": "3 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Medium"
+                              },
+                              {
+                                  "name": "Munni",
+                                  "age": "1 year",
+                                  "breed": "Tabby Cat",
+                                  "size": "Small"
+                              },
+                              {
+                                  "name": "Chintu",
+                                  "age": "2 years",
+                                  "breed": "Indian Rabbit",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 2,
+                          "name": "Uttar Pradesh Animal Shelter",
+                          "address": "Mahanagar, Lucknow",
+                          "contact": "0522-7654321",
+                          "pets_available": [
+                              {
+                                  "name": "Raja",
+                                  "age": "4 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Large"
+                              },
+                              {
+                                  "name": "Rani",
+                                  "age": "2 years",
+                                  "breed": "Calico Cat",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 3,
+                          "name": "Pawfect Adoptions",
+                          "address": "Hazratganj, Lucknow",
+                          "contact": "0522-9876543",
+                          "pets_available": [
+                              {
+                                  "name": "Babu",
+                                  "age": "2 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Medium"
+                              },
+                              {
+                                  "name": "Mithu",
+                                  "age": "3 years",
+                                  "breed": "Parrot",
+                                  "size": "Small"
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "city_name": "Agra",
+                  "adoption_centers": [
+                      {
+                          "id": 4,
+                          "name": "Agra Animal Adoption Centre",
+                          "address": "M.G. Road, Agra",
+                          "contact": "0562-1122334",
+                          "pets_available": [
+                              {
+                                  "name": "Kalu",
+                                  "age": "2 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Medium"
+                              },
+                              {
+                                  "name": "Chutki",
+                                  "age": "1 year",
+                                  "breed": "Tabby Cat",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 5,
+                          "name": "Agra Paws Shelter",
+                          "address": "Tajganj, Agra",
+                          "contact": "0562-9988776",
+                          "pets_available": []
+                      }
+                  ]
+              },
+              {
+                  "city_name": "Varanasi",
+                  "adoption_centers": [
+                      {
+                          "id": 6,
+                          "name": "Varanasi Pet Adoption Centre",
+                          "address": "Ramnagar, Varanasi",
+                          "contact": "0542-1234567",
+                          "pets_available": []
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "state_id": 2,
+          "state_name": "Maharashtra",
+          "cities": [
+              {
+                  "city_name": "Mumbai",
+                  "adoption_centers": [
+                      {
+                          "id": 7,
+                          "name": "Mumbai Pet Adoption Centre",
+                          "address": "Andheri West, Mumbai",
+                          "contact": "022-2345678",
+                          "pets_available": [
+                              {
+                                  "name": "Laxmi",
+                                  "age": "2 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Medium"
+                              },
+                              {
+                                  "name": "Sita",
+                                  "age": "1 year",
+                                  "breed": "Persian Cat",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 8,
+                          "name": "Animal Welfare Society",
+                          "address": "Colaba, Mumbai",
+                          "contact": "022-3456789",
+                          "pets_available": [
+                              {
+                                  "name": "Moti",
+                                  "age": "3 years",
+                                  "breed": "Domestic Cat",
+                                   "size": "Small"
+                              },
+                              {
+                                  "name": "Chintu",
+                                  "age": "2 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Medium"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 9,
+                          "name": "Pet Haven Adoption Centre",
+                          "address": "Bandra, Mumbai",
+                          "contact": "022-8765432",
+                          "pets_available": [
+                              {
+                                  "name": "Tommy",
+                                  "age": "4 years",
+                                  "breed": "Beagle",
+                                  "size": "Medium"
+                              },
+                              {
+                                  "name": "Kitty",
+                                  "age": "1 year",
+                                  "breed": "Siamese Cat",
+                                  "size": "Small"
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "city_name": "Pune",
+                  "adoption_centers": [
+                      {
+                          "id": 10,
+                          "name": "Pune Pet Rescue",
+                          "address": "Kothrud, Pune",
+                          "contact": "020-1234567",
+                          "pets_available": [
+                              {
+                                  "name": "Raja",
+                                  "age": "3 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Large"
+                              },
+                              {
+                                  "name": "Golu",
+                                  "age": "2 years",
+                                  "breed": "Persian Cat",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 11,
+                          "name": "Pune Animal Shelter",
+                          "address": "Camp Area, Pune",
+                          "contact": "020-7654321",
+                          "pets_available": []
+                      }
+                  ]
+              },
+              {
+                  "city_name": "Nagpur",
+                  "adoption_centers": [
+                      {
+                          "id": 12,
+                          "name": "Nagpur Pet Adoption Centre",
+                          "address": "Nandanvan, Nagpur",
+                          "contact": "0712-9876543",
+                          "pets_available": []
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "state_id": 3,
+          "state_name": "West Bengal",
+          "cities": [
+              {
+                  "city_name": "Kolkata",
+                  "adoption_centers": [
+                      {
+                          "id": 13,
+                          "name": "Kolkata Animal Adoption Centre",
+                          "address": "Salt Lake City, Kolkata",
+                          "contact": "033-1234567",
+                          "pets_available": [
+                              {
+                                  "name": "Babu",
+                                  "age": "2 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Medium"
+                              },
+                              {
+                                  "name": "Mithu",
+                                  "age": "3 years",
+                                  "breed": "Parrot",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 14,
+                          "name": "West Bengal Pet Shelter",
+                          "address": "Park Street, Kolkata",
+                          "contact": "033-9876543",
+                          "pets_available": []
+                      },
+                      {
+                          "id": 15,
+                          "name": "Paw Partners Adoption Centre",
+                          "address": "Gariahat, Kolkata",
+                          "contact": "033-5432109",
+                          "pets_available": []
+                      }
+                  ]
+              },
+              {
+                  "city_name": "Howrah",
+                  "adoption_centers": [
+                      {
+                          "id": 16,
+                          "name": "Howrah Pet Adoption Centre",
+                          "address": "Sarat Chatterjee Road, Howrah",
+                          "contact": "033-1122334",
+                          "pets_available": []
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "state_id": 4,
+          "state_name": "Madhya Pradesh",
+          "cities": [
+              {
+                  "city_name": "Indore",
+                  "adoption_centers": [
+                      {
+                          "id": 17,
+                          "name": "Indore Pet Rescue Centre",
+                          "address": "Rajendra Nagar, Indore",
+                          "contact": "0731-1122334",
+                          "pets_available": [
+                              {
+                                  "name": "Chintu",
+                                  "age": "1.5 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Small"
+                              },
+                              {
+                                  "name": "Gudiya",
+                                  "age": "2 years",
+                                  "breed": "Domestic Cat",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 18,
+                          "name": "Indore Animal Shelter",
+                          "address": " Mangal Nagar, Indore",
+                          "contact": "0731-5566778",
+                          "pets_available": [
+                              {
+                                  "name": "Bholu",
+                                  "age": "3 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Medium"
+                              },
+                              {
+                                  "name": "Moti",
+                                  "age": "1 year",
+                                  "breed": "Domestic Cat",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 19,
+                          "name": "Paws and Claws Indore",
+                          "address": "LIG, Indore",
+                          "contact": "0731-9988776",
+                          "pets_available": []
+                      }
+                  ]
+              },
+              {
+                  "city_name": "Bhopal",
+                  "adoption_centers": [
+                      {
+                          "id": 20,
+                          "name": "Bhopal Animal Adoption",
+                          "address": "Hoshangabad Road, Bhopal",
+                          "contact": "0755-1234567",
+                          "pets_available": []
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "state_id": 5,
+          "state_name": "Tamil Nadu",
+          "cities": [
+              {
+                  "city_name": "Chennai",
+                  "adoption_centers": [
+                      {
+                          "id": 21,
+                          "name": "Chennai Animal Welfare",
+                          "address": "Anna Nagar, Chennai",
+                          "contact": "044-2345678",
+                          "pets_available": [
+                              {
+                                  "name": "Thambi",
+                                  "age": "3 years",
+                                  "breed": "Indian Pariah Dog",
+                                  "size": "Medium"
+                              },
+                              {
+                                  "name": "Rani",
+                                  "age": "1 year",
+                                  "breed": "Persian Cat",
+                                  "size": "Small"
+                              }
+                          ]
+                      },
+                      {
+                          "id": 22,
+                          "name": "Madras Pet Adoption Centre",
+                          "address": "Adyar, Chennai",
+                          "contact": "044-3456789",
+                          "pets_available": []
+                      },
+                      {
+                          "id": 23,
+                          "name": "Paws Chennai",
+                          "address": "T Nagar, Chennai",
+                          "contact": "044-7654321",
+                          "pets_available": []
+                      },
+                      {
+                          "id": 24,
+                          "name": "Pet Care Adoption Centre",
+                          "address": "Egmore, Chennai",
+                          "contact": "044-2349876",
+                          "pets_available": []
+                      }
+                  ]
+              },
+              {
+                  "city_name": "Coimbatore",
+                  "adoption_centers": [
+                      {
+                          "id": 25,
+                          "name": "Coimbatore Pet Shelter",
+                          "address": "R.S. Puram, Coimbatore",
+                          "contact": "0422-1122334",
+                          "pets_available": []
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "state_id": 6,
+          "state_name": "Rajasthan",
+          "cities": [
+              {
+                  "city_name": "Jaipur",
+                  "adoption_centers": [
+                      {
+                          "id": 26,
+                          "name": "Jaipur Pet Shelter",
+                          "address": "Bapu Nagar, Jaipur",
+                          "contact": "0141-1234567",
+                          "pets_available": []
+                      },
+                      {
+                          "id": 27,
+                          "name": "Jaipur Pet Rescue",
+                          "address": "C-Scheme, Jaipur",
+                          "contact": "0141-7654321",
+                          "pets_available": []
+                      }
+                  ]
+              },
+              {
+                  "city_name": "Udaipur",
+                  "adoption_centers": [
+                      {
+                          "id": 28,
+                          "name": "Udaipur Animal Shelter",
+                          "address": "Fatehpura, Udaipur",
+                          "contact": "0294-9988776",
+                          "pets_available": []
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

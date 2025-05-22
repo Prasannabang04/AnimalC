@@ -1,0 +1,210 @@
+{
+    "data": [
+        {
+            "state_id": 1,
+            "state_name": "Uttar Pradesh",
+            "cities": [
+                {
+                    "city_name": "Lucknow",
+                    "adoption_centers": [
+                        {
+                            "id": 1,
+                            "name": "Lucky Paws Adoption Centre",
+                            "address": "Sector 15, Indira Nagar, Lucknow",
+                            "contact": "0522-1234567",
+                            "pets_available": [
+                                {
+                                    "name": "Sheru",
+                                    "age": "3 years",
+                                    "breed": "Indian Pariah Dog",
+                                    "size": "Medium"
+                                },
+                                {
+                                    "name": "Munni",
+                                    "age": "1 year",
+                                    "breed": "Tabby Cat",
+                                    "size": "Small"
+                                },
+                                {
+                                    "name": "Chintu",
+                                    "age": "2 years",
+                                    "breed": "Indian Rabbit",
+                                    "size": "Small"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Uttar Pradesh Animal Shelter",
+                            "address": "Mahanagar, Lucknow",
+                            "contact": "0522-7654321",
+                            "pets_available": [
+                                {
+                                    "name": "Raja",
+                                    "age": "4 years",
+                                    "breed": "Indian Pariah Dog",
+                                    "size": "Large"
+                                },
+                                {
+                                    "name": "Rani",
+                                    "age": "2 years",
+                                    "breed": "Calico Cat",
+                                    "size": "Small"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Agra",
+                    "adoption_centers": [
+                        {
+                            "id": 4,
+                            "name": "Agra Animal Adoption Centre",
+                            "address": "M.G. Road, Agra",
+                            "contact": "0562-1122334",
+                            "pets_available": [
+                                {
+                                    "name": "Kalu",
+                                    "age": "2 years",
+                                    "breed": "Indian Pariah Dog",
+                                    "size": "Medium"
+                                },
+                                {
+                                    "name": "Chutki",
+                                    "age": "1 year",
+                                    "breed": "Tabby Cat",
+                                    "size": "Small"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 2,
+            "state_name": "Maharashtra",
+            "cities": [
+                {
+                    "city_name": "Mumbai",
+                    "adoption_centers": [
+                        {
+                            "id": 7,
+                            "name": "Mumbai Pet Adoption Centre",
+                            "address": "Andheri West, Mumbai",
+                            "contact": "022-2345678",
+                            "pets_available": [
+                                {
+                                    "name": "Laxmi",
+                                    "age": "2 years",
+                                    "breed": "Indian Pariah Dog",
+                                    "size": "Medium"
+                                },
+                                {
+                                    "name": "Sita",
+                                    "age": "1 year",
+                                    "breed": "Persian Cat",
+                                    "size": "Small"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 3,
+            "state_name": "West Bengal",
+            "cities": [
+                {
+                    "city_name": "Kolkata",
+                    "adoption_centers": [
+                        {
+                            "id": 13,
+                            "name": "Kolkata Animal Adoption Centre",
+                            "address": "Salt Lake City, Kolkata",
+                            "contact": "033-1234567",
+                            "pets_available": [
+                                {
+                                    "name": "Babu",
+                                    "age": "2 years",
+                                    "breed": "Indian Pariah Dog",
+                                    "size": "Medium"
+                                },
+                                {
+                                    "name": "Mithu",
+                                    "age": "3 years",
+                                    "breed": "Parrot",
+                                    "size": "Small"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 4,
+            "state_name": "Madhya Pradesh",
+            "cities": [
+                {
+                    "city_name": "Indore",
+                    "adoption_centers": [
+                        {
+                            "id": 17,
+                            "name": "Indore Pet Rescue Centre",
+                            "address": "Rajendra Nagar, Indore",
+                            "contact": "0731-1122334",
+                            "pets_available": [
+                                {
+                                    "name": "Chintu",
+                                    "age": "1.5 years",
+                                    "breed": "Indian Pariah Dog",
+                                    "size": "Small"
+                                },
+                                {
+                                    "name": "Gudiya",
+                                    "age": "2 years",
+                                    "breed": "Domestic Cat",
+                                    "size": "Small"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 5,
+            "state_name": "Tamil Nadu",
+            "cities": [
+                {
+                    "city_name": "Chennai",
+                    "adoption_centers": [
+                        {
+                            "id": 21,
+                            "name": "Chennai Animal Welfare",
+                            "address": "Anna Nagar, Chennai",
+                            "contact": "044-2345678",
+                            "pets_available": [
+                                {
+                                    "name": "Thambi",
+                                    "age": "3 years",
+                                    "breed": "Indian Pariah Dog",
+                                    "size": "Medium"
+                                },
+                                {
+                                    "name": "Rani",
+                                    "age": "1 year",
+                                    "breed": "Persian Cat",
+                                    "size": "Small"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

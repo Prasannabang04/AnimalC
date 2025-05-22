@@ -1,0 +1,272 @@
+{
+    "data": [
+        {
+            "state_id": 1,
+            "state_name": "Uttar Pradesh",
+            "cities": [
+                {
+                    "city_name": "Lucknow",
+                    "rescue_centers": [
+                        {
+                            "id": 1,
+                            "name": "Lucky Paws Rescue Centre",
+                            "address": "Sector 15, Indira Nagar, Lucknow",
+                            "contact": "0522-1234567"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Uttar Pradesh Animal Rescue Centre",
+                            "address": "Mahanagar, Lucknow",
+                            "contact": "0522-7654321"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Pawfect Rescue Centre",
+                            "address": "Hazratganj, Lucknow",
+                            "contact": "0522-9876543"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Agra",
+                    "rescue_centers": [
+                        {
+                            "id": 4,
+                            "name": "Agra Animal Rescue Centre",
+                            "address": "M.G. Road, Agra",
+                            "contact": "0562-1122334"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Agra Paws Rescue Centre",
+                            "address": "Tajganj, Agra",
+                            "contact": "0562-9988776"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Varanasi",
+                    "rescue_centers": [
+                        {
+                            "id": 6,
+                            "name": "Varanasi Pet Rescue Centre",
+                            "address": "Ramnagar, Varanasi",
+                            "contact": "0542-1234567"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 2,
+            "state_name": "Maharashtra",
+            "cities": [
+                {
+                    "city_name": "Mumbai",
+                    "rescue_centers": [
+                        {
+                            "id": 7,
+                            "name": "Mumbai Pet Rescue Centre",
+                            "address": "Andheri West, Mumbai",
+                            "contact": "022-2345678"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Animal Welfare Society Rescue Centre",
+                            "address": "Colaba, Mumbai",
+                            "contact": "022-3456789"
+                        },
+                        {
+                            "id": 9,
+                            "name": "Pet Haven Rescue Centre",
+                            "address": "Bandra, Mumbai",
+                            "contact": "022-8765432"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Pune",
+                    "rescue_centers": [
+                        {
+                            "id": 10,
+                            "name": "Pune Pet Rescue",
+                            "address": "Kothrud, Pune",
+                            "contact": "020-1234567"
+                        },
+                        {
+                            "id": 11,
+                            "name": "Pune Animal Rescue Centre",
+                            "address": "Camp Area, Pune",
+                            "contact": "020-7654321"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Nagpur",
+                    "rescue_centers": [
+                        {
+                            "id": 12,
+                            "name": "Nagpur Pet Rescue Centre",
+                            "address": "Nandanvan, Nagpur",
+                            "contact": "0712-9876543"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 3,
+            "state_name": "West Bengal",
+            "cities": [
+                {
+                    "city_name": "Kolkata",
+                    "rescue_centers": [
+                        {
+                            "id": 13,
+                            "name": "Kolkata Animal Rescue Centre",
+                            "address": "Salt Lake City, Kolkata",
+                            "contact": "033-1234567"
+                        },
+                        {
+                            "id": 14,
+                            "name": "West Bengal Pet Rescue Centre",
+                            "address": "Park Street, Kolkata",
+                            "contact": "033-9876543"
+                        },
+                        {
+                            "id": 15,
+                            "name": "Paw Partners Rescue Centre",
+                            "address": "Gariahat, Kolkata",
+                            "contact": "033-5432109"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Howrah",
+                    "rescue_centers": [
+                        {
+                            "id": 16,
+                            "name": "Howrah Pet Rescue Centre",
+                            "address": "Sarat Chatterjee Road, Howrah",
+                            "contact": "033-1122334"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 4,
+            "state_name": "Madhya Pradesh",
+            "cities": [
+                {
+                    "city_name": "Indore",
+                    "rescue_centers": [
+                        {
+                            "id": 17,
+                            "name": "Indore Pet Rescue Centre",
+                            "address": "Rajendra Nagar, Indore",
+                            "contact": "0731-1122334"
+                        },
+                        {
+                            "id": 18,
+                            "name": "Indore Animal Rescue Centre",
+                            "address": "Mangal Nagar, Indore",
+                            "contact": "0731-5566778"
+                        },
+                        {
+                            "id": 19,
+                            "name": "Paws and Claws Rescue Centre",
+                            "address": "LIG, Indore",
+                            "contact": "0731-9988776"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Bhopal",
+                    "rescue_centers": [
+                        {
+                            "id": 20,
+                            "name": "Bhopal Animal Rescue Centre",
+                            "address": "Hoshangabad Road, Bhopal",
+                            "contact": "0755-1234567"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 5,
+            "state_name": "Tamil Nadu",
+            "cities": [
+                {
+                    "city_name": "Chennai",
+                    "rescue_centers": [
+                        {
+                            "id": 21,
+                            "name": "Chennai Animal Welfare Rescue Centre",
+                            "address": "Anna Nagar, Chennai",
+                            "contact": "044-2345678"
+                        },
+                        {
+                            "id": 22,
+                            "name": "Madras Pet Rescue Centre",
+                            "address": "Adyar, Chennai",
+                            "contact": "044-3456789"
+                        },
+                        {
+                            "id": 23,
+                            "name": "Paws Chennai Rescue Centre",
+                            "address": "T Nagar, Chennai",
+                            "contact": "044-7654321"
+                        },
+                        {
+                            "id": 24,
+                            "name": "Pet Care Rescue Centre",
+                            "address": "Egmore, Chennai",
+                            "contact": "044-2349876"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Coimbatore",
+                    "rescue_centers": [
+                        {
+                            "id": 25,
+                            "name": "Coimbatore Pet Rescue Centre",
+                            "address": "R.S. Puram, Coimbatore",
+                            "contact": "0422-1122334"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 6,
+            "state_name": "Rajasthan",
+            "cities": [
+                {
+                    "city_name": "Jaipur",
+                    "rescue_centers": [
+                        {
+                            "id": 26,
+                            "name": "Jaipur Animal Rescue Centre",
+                            "address": "C-Scheme, Jaipur",
+                            "contact": "0141-1122334"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Udaipur",
+                    "rescue_centers": [
+                        {
+                            "id": 27,
+                            "name": "Bezuban Animal Rescue Centre",
+                            "address": "D-Scheme, Udaipur",
+                            "contact": "0141-1122334"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

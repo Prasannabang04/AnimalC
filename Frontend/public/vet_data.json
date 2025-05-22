@@ -1,0 +1,531 @@
+{
+    "data": [
+        {
+            "state_id": 1,
+            "state_name": "Uttar Pradesh",
+            "cities": [
+                {
+                    "city_name": "Lucknow",
+                    "veterinary_clinics": [
+                        {
+                            "id": 1,
+                            "name": "Care & Cure Veterinary Clinic",
+                            "address": "Aliganj, Lucknow",
+                            "contact": "0522-1112233"
+                          
+                        },
+                        {
+                            "id": 2,
+                            "name": "Happy Tails Vet Clinic",
+                            "address": "Hazratganj, Lucknow",
+                            "contact": "0522-1122444"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Paws & Claws Veterinary Hospital",
+                            "address": "Indira Nagar, Lucknow",
+                            "contact": "0522-1133555"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Animal Health Centre",
+                            "address": "Gomti Nagar, Lucknow",
+                            "contact": "0522-1144666"
+                        },
+                        {
+                            "id": 5,
+                            "name": "City Vet Clinic",
+                            "address": "Chowk, Lucknow",
+                            "contact": "0522-1155777"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Agra",
+                    "veterinary_clinics": [
+                        {
+                            "id": 6,
+                            "name": "Agra Pet Clinic",
+                            "address": "Sanjay Place, Agra",
+                            "contact": "0562-2233445"
+                        },
+                        {
+                            "id": 7,
+                            "name": "Animal Care Veterinary Centre",
+                            "address": "Civil Lines, Agra",
+                            "contact": "0562-2244556"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Happy Paws Clinic",
+                            "address": "Tajganj, Agra",
+                            "contact": "0562-2255667"
+                        },
+                        {
+                            "id": 9,
+                            "name": "Agra Vet Hospital",
+                            "address": "Dayal Bagh, Agra",
+                            "contact": "0562-2266778"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Healthy Pets Veterinary Clinic",
+                            "address": "Shahganj, Agra",
+                            "contact": "0562-2277889"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Varanasi",
+                    "veterinary_clinics": [
+                        {
+                            "id": 11,
+                            "name": "Varanasi Pet Clinic",
+                            "address": "Assi Ghat, Varanasi",
+                            "contact": "0542-3322110"
+                        },
+                        {
+                            "id": 12,
+                            "name": "Animal Wellness Centre",
+                            "address": "Ramnagar, Varanasi",
+                            "contact": "0542-3344112"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Paws Veterinary Clinic",
+                            "address": "Sigra, Varanasi",
+                            "contact": "0542-3366114"
+                        },
+                        {
+                            "id": 14,
+                            "name": "Healthy Tails Clinic",
+                            "address": "Mahmoorganj, Varanasi",
+                            "contact": "0542-3388116"
+                        },
+                        {
+                            "id": 15,
+                            "name": "Happy Pets Veterinary Centre",
+                            "address": "Lanka, Varanasi",
+                            "contact": "0542-3399118"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 2,
+            "state_name": "Maharashtra",
+            "cities": [
+                {
+                    "city_name": "Mumbai",
+                    "veterinary_clinics": [
+                        {
+                            "id": 16,
+                            "name": "Mumbai Animal Clinic",
+                            "address": "Andheri East, Mumbai",
+                            "contact": "022-4433221"
+                        },
+                        {
+                            "id": 17,
+                            "name": "Happy Pets Veterinary Care",
+                            "address": "Borivali, Mumbai",
+                            "contact": "022-4455223"
+                        },
+                        {
+                            "id": 18,
+                            "name": "Paws & Purrs Clinic",
+                            "address": "Dadar, Mumbai",
+                            "contact": "022-4477225"
+                        },
+                        {
+                            "id": 19,
+                            "name": "Animal Care Hospital",
+                            "address": "Colaba, Mumbai",
+                            "contact": "022-4499227"
+                        },
+                        {
+                            "id": 20,
+                            "name": "Vet Health Centre",
+                            "address": "Bandra West, Mumbai",
+                            "contact": "022-4411229"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Pune",
+                    "veterinary_clinics": [
+                        {
+                            "id": 21,
+                            "name": "Pune Animal Hospital",
+                            "address": "Viman Nagar, Pune",
+                            "contact": "020-2211333"
+                        },
+                        {
+                            "id": 22,
+                            "name": "Pet Care Clinic",
+                            "address": "Aundh, Pune",
+                            "contact": "020-2233444"
+                        },
+                        {
+                            "id": 23,
+                            "name": "Vet Heal Centre",
+                            "address": "Kothrud, Pune",
+                            "contact": "020-2255555"
+                        },
+                        {
+                            "id": 24,
+                            "name": "Paws Veterinary Centre",
+                            "address": "Camp Area, Pune",
+                            "contact": "020-2277777"
+                        },
+                        {
+                            "id": 25,
+                            "name": "Happy Tails Clinic",
+                            "address": "Baner, Pune",
+                            "contact": "020-2299999"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Nagpur",
+                    "veterinary_clinics": [
+                        {
+                            "id": 26,
+                            "name": "Nagpur Vet Hospital",
+                            "address": "Civil Lines, Nagpur",
+                            "contact": "0712-2233445"
+                        },
+                        {
+                            "id": 27,
+                            "name": "Pet Care Nagpur",
+                            "address": "Ramdaspeth, Nagpur",
+                            "contact": "0712-2244556"
+                        },
+                        {
+                            "id": 28,
+                            "name": "Paws Vet Centre",
+                            "address": "Dharampeth, Nagpur",
+                            "contact": "0712-2255667"
+                        },
+                        {
+                            "id": 29,
+                            "name": "Healthy Pets Clinic",
+                            "address": "Itwari, Nagpur",
+                            "contact": "0712-2266778"
+                        },
+                        {
+                            "id": 30,
+                            "name": "Nagpur Animal Care",
+                            "address": "Sadar, Nagpur",
+                            "contact": "0712-2277889"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 3,
+            "state_name": "West Bengal",
+            "cities": [
+                {
+                    "city_name": "Kolkata",
+                    "veterinary_clinics": [
+                        {
+                            "id": 31,
+                            "name": "Kolkata Pet Hospital",
+                            "address": "Salt Lake, Kolkata",
+                            "contact": "033-1122334"
+                        },
+                        {
+                            "id": 32,
+                            "name": "Animal Care Kolkata",
+                            "address": "Park Street, Kolkata",
+                            "contact": "033-1133445"
+                        },
+                        {
+                            "id": 33,
+                            "name": "Happy Tails Veterinary Centre",
+                            "address": "Gariahat, Kolkata",
+                            "contact": "033-1144556"
+                        },
+                        {
+                            "id": 34,
+                            "name": "Paws & Claws Clinic",
+                            "address": "Howrah, Kolkata",
+                            "contact": "033-1155667"
+                        },
+                        {
+                            "id": 35,
+                            "name": "Kolkata Vet Clinic",
+                            "address": "Tollygunge, Kolkata",
+                            "contact": "033-1166778"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Howrah",
+                    "veterinary_clinics": [
+                        {
+                            "id": 36,
+                            "name": "Howrah Vet Centre",
+                            "address": "Salkia, Howrah",
+                            "contact": "033-1177889"
+                        },
+                        {
+                            "id": 37,
+                            "name": "Animal Wellness Centre",
+                            "address": "Shibpur, Howrah",
+                            "contact": "033-1188990"
+                        },
+                        {
+                            "id": 38,
+                            "name": "Happy Pets Veterinary Clinic",
+                            "address": "Chatterjee Road, Howrah",
+                            "contact": "033-1199001"
+                        },
+                        {
+                            "id": 39,
+                            "name": "Paws Vet Clinic",
+                            "address": "Bally, Howrah",
+                            "contact": "033-1200011"
+                        },
+                        {
+                            "id": 40,
+                            "name": "Healthy Tails Vet Centre",
+                            "address": "Liluah, Howrah",
+                            "contact": "033-1211122"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 4,
+            "state_name": "Madhya Pradesh",
+            "cities": [
+                {
+                    "city_name": "Indore",
+                    "veterinary_clinics": [
+                        {
+                            "id": 41,
+                            "name": "Indore Animal Clinic",
+                            "address": "Vijay Nagar, Indore",
+                            "contact": "0731-1112233"
+                        },
+                        {
+                            "id": 42,
+                            "name": "Healthy Paws Vet Centre",
+                            "address": "Palasia, Indore",
+                            "contact": "0731-1122444"
+                        },
+                        {
+                            "id": 43,
+                            "name": "Paws Care Veterinary Clinic",
+                            "address": "Rajendra Nagar, Indore",
+                            "contact": "0731-1133555"
+                        },
+                        {
+                            "id": 44,
+                            "name": "Indore Pet Hospital",
+                            "address": "Bhawarkua, Indore",
+                            "contact": "0731-1144666"
+                        },
+                        {
+                            "id": 45,
+                            "name": "Indore Animal Wellness",
+                            "address": "LIG Colony, Indore",
+                            "contact": "0731-1155777"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Bhopal",
+                    "veterinary_clinics": [
+                        {
+                            "id": 46,
+                            "name": "Bhopal Veterinary Hospital",
+                            "address": "Arera Colony, Bhopal",
+                            "contact": "0755-2233445"
+                        },
+                        {
+                            "id": 47,
+                            "name": "Animal Care Bhopal",
+                            "address": "Hoshangabad Road, Bhopal",
+                            "contact": "0755-2244556"
+                        },
+                        {
+                            "id": 48,
+                            "name": "Paws & Claws Clinic",
+                            "address": "Kolar Road, Bhopal",
+                            "contact": "0755-2255667"
+                        },
+                        {
+                            "id": 49,
+                            "name": "Bhopal Pet Wellness Centre",
+                            "address": "Berasia Road, Bhopal",
+                            "contact": "0755-2266778"
+                        },
+                        {
+                            "id": 50,
+                            "name": "Healthy Pets Vet Clinic",
+                            "address": "New Market, Bhopal",
+                            "contact": "0755-2277889"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 5,
+            "state_name": "Tamil Nadu",
+            "cities": [
+                {
+                    "city_name": "Chennai",
+                    "veterinary_clinics": [
+                        {
+                            "id": 51,
+                            "name": "Chennai Animal Clinic",
+                            "address": "Velachery, Chennai",
+                            "contact": "044-1112233"
+                        },
+                        {
+                            "id": 52,
+                            "name": "Paws & Wellness Clinic",
+                            "address": "Adyar, Chennai",
+                            "contact": "044-1122444"
+                        },
+                        {
+                            "id": 53,
+                            "name": "Happy Tails Vet Hospital",
+                            "address": "T Nagar, Chennai",
+                            "contact": "044-1133555"
+                        },
+                        {
+                            "id": 54,
+                            "name": "Chennai Pet Wellness Centre",
+                            "address": "Anna Nagar, Chennai",
+                            "contact": "044-1144666"
+                        },
+                        {
+                            "id": 55,
+                            "name": "Animal Care & Cure Clinic",
+                            "address": "Perungudi, Chennai",
+                            "contact": "044-1155777"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Coimbatore",
+                    "veterinary_clinics": [
+                        {
+                            "id": 56,
+                            "name": "Coimbatore Animal Hospital",
+                            "address": "RS Puram, Coimbatore",
+                            "contact": "0422-2233445"
+                        },
+                        {
+                            "id": 57,
+                            "name": "Paws Veterinary Clinic",
+                            "address": "Gandhipuram, Coimbatore",
+                            "contact": "0422-2244556"
+                        },
+                        {
+                            "id": 58,
+                            "name": "Coimbatore Pet Care",
+                            "address": "Saibaba Colony, Coimbatore",
+                            "contact": "0422-2255667"
+                        },
+                        {
+                            "id": 59,
+                            "name": "Happy Tails Vet Hospital",
+                            "address": "Avinashi Road, Coimbatore",
+                            "contact": "0422-2266778"
+                        },
+                        {
+                            "id": 60,
+                            "name": "Healthy Pets Clinic",
+                            "address": "Singanallur, Coimbatore",
+                            "contact": "0422-2277889"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "state_id": 6,
+            "state_name": "Rajasthan",
+            "cities": [
+                {
+                    "city_name": "Jaipur",
+                    "veterinary_clinics": [
+                        {
+                            "id": 61,
+                            "name": "Jaipur Animal Hospital",
+                            "address": "Malviya Nagar, Jaipur",
+                            "contact": "0141-1112233"
+                        },
+                        {
+                            "id": 62,
+                            "name": "Paws Care Veterinary Centre",
+                            "address": "Vaishali Nagar, Jaipur",
+                            "contact": "0141-1122444"
+                        },
+                        {
+                            "id": 63,
+                            "name": "Healthy Tails Vet Clinic",
+                            "address": "Bapu Nagar, Jaipur",
+                            "contact": "0141-1133555"
+                        },
+                        {
+                            "id": 64,
+                            "name": "Jaipur Pet Wellness",
+                            "address": "C-Scheme, Jaipur",
+                            "contact": "0141-1144666"
+                        },
+                        {
+                            "id": 65,
+                            "name": "Animal Care & Cure",
+                            "address": "Mansarovar, Jaipur",
+                            "contact": "0141-1155777"
+                        }
+                    ]
+                },
+                {
+                    "city_name": "Udaipur",
+                    "veterinary_clinics": [
+                        {
+                            "id": 66,
+                            "name": "Udaipur Animal Hospital",
+                            "address": "Fatehpura, Udaipur",
+                            "contact": "0294-2233445"
+                        },
+                        {
+                            "id": 67,
+                            "name": "Paws & Claws Vet Centre",
+                            "address": "Sukhadia Circle, Udaipur",
+                            "contact": "0294-2244556"
+                        },
+                        {
+                            "id": 68,
+                            "name": "Healthy Paws Clinic",
+                            "address": "Hiran Magri, Udaipur",
+                            "contact": "0294-2255667"
+                        },
+                        {
+                            "id": 69,
+                            "name": "Udaipur Pet Care",
+                            "address": "Ashok Nagar, Udaipur",
+                            "contact": "0294-2266778"
+                        },
+                        {
+                            "id": 70,
+                            "name": "Animal Wellness Centre",
+                            "address": "Badi Lake, Udaipur",
+                            "contact": "0294-2277889"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
