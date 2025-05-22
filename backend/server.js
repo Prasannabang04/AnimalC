@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGO_URI).then(() => console.log("MongoDB connecte
 app.use("/auth", require("./routes/auth"));
 app.use("/animal", require("./routes/animal"));
 
-app.listen(3000, () => console.log("Server running on port 3000"));
+app.listen(5050, () => console.log("Server running on port 5050"));
 
 
 // const express = require("express");
