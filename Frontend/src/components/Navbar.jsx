@@ -146,7 +146,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 function Navbar() {
   const [sticky, setSticky] = useState(false);
-  const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
+ 
 
   useEffect(() => {
     const handleScroll = () => setSticky(window.scrollY > 0);
@@ -157,7 +157,7 @@ function Navbar() {
   const NavItems = (
     <>
       <li><Link to="/">Home</Link></li>
-      {isAuthenticated && (
+     
         <>
           <li><Link to="/rescue">Rescue</Link></li>
           <li><Link to="/adoption">Adoption</Link></li>
@@ -168,7 +168,7 @@ function Navbar() {
           <li><Link to="/found-pets">Pets reported</Link></li>
           <li><Link to="/display-pets">View Found Pets</Link></li>
         </>
-      )}
+      
     </>
   );
 
@@ -191,17 +191,7 @@ function Navbar() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{NavItems}</ul>
         </div>
-        <div className="navbar-end space-x-3">
-          {!isAuthenticated ? (
-            <button className="btn btn-sm btn-outline" onClick={() => loginWithRedirect()}>
-              Login
-            </button>
-          ) : (
-            <button className="btn btn-sm btn-outline" onClick={() => logout({ returnTo: window.location.origin })}>
-              Logout
-            </button>
-          )}
-        </div>
+      
       </div>
     </div>
   );
