@@ -45,7 +45,7 @@ function FoundPets() {
     formData.append("reportType", reportType); // ✅ Critical for unified schema
 
     try {
-      const endpoint = `http://localhost:3000/animal`; // ✅ Use unified endpoint
+      const endpoint = `http://52.90.65.3:5050/animal`; // ✅ Use unified endpoint
       await axios.post(endpoint, formData);
       alert(`Your ${reportType} report has been submitted!`);
 
@@ -307,115 +307,5 @@ function FoundPets() {
 }
 
 export default FoundPets;
-
-
-// import { useState } from "react";
-// import axios from "axios";
-// import { useAuth } from "../auth/AuthContext";
-// import { useNavigate } from "react-router-dom";
-
-// function FoundPets() {
-//   const { currentUser } = useAuth();
-//   const navigate = useNavigate();
-//   const [reportType, setReportType] = useState("found");
-
-//   const [form, setForm] = useState({
-//     animalType: "",
-//     breed: "",
-//     color: "",
-//     gender: "",
-//     age: "",
-//     date: "",
-//     location: "",
-//     description: "",
-//     image: "",
-//     reporterName: "",
-//     reporterPhone: "",
-//     reporterEmail: "",
-//     reward: "",
-//     isInjured: false,
-//     microchipId: ""
-//   });
-
-//   const handleChange = (e) => {
-//     const { name, value, type, checked } = e.target;
-//     setForm({ ...form, [name]: type === "checkbox" ? checked : value });
-//   };
-
-//   const handleSubmit = async (e) => {
-//     e.preventDefault();
-//     if (!currentUser) {
-//       alert("Please log in to submit a report.");
-//       navigate("/login");
-//       return;
-//     }
-
-//     try {
-//       await axios.post("http://localhost:3000/animals", {
-//         ...form,
-//         reportType,
-//         userId: currentUser.id
-//       }, {
-//         headers: {
-//           Authorization: `Bearer ${localStorage.getItem("token")}`
-//         }
-//       });
-
-//       alert("Report submitted!");
-//       setForm({
-//         animalType: "",
-//         breed: "",
-//         color: "",
-//         gender: "",
-//         age: "",
-//         date: "",
-//         location: "",
-//         description: "",
-//         image: "",
-//         reporterName: "",
-//         reporterPhone: "",
-//         reporterEmail: "",
-//         reward: "",
-//         isInjured: false,
-//         microchipId: ""
-//       });
-//     } catch (err) {
-//       alert("Submission failed.");
-//       console.error(err);
-//     }
-//   };
-
-//   return (
-//     <div className="max-w-3xl mx-auto mt-10">
-//       <h2 className="text-2xl font-bold mb-4">Report a {reportType} Pet</h2>
-//       <form onSubmit={handleSubmit} className="space-y-3">
-//         <select value={reportType} onChange={(e) => setReportType(e.target.value)}>
-//           <option value="found">Found</option>
-//           <option value="lost">Lost</option>
-//         </select>
-//         <input placeholder="Animal Type" name="animalType" value={form.animalType} onChange={handleChange} />
-//         <input placeholder="Breed" name="breed" value={form.breed} onChange={handleChange} />
-//         <input placeholder="Color" name="color" value={form.color} onChange={handleChange} />
-//         <input placeholder="Gender" name="gender" value={form.gender} onChange={handleChange} />
-//         <input placeholder="Age" name="age" value={form.age} onChange={handleChange} />
-//         <input placeholder="Date" type="date" name="date" value={form.date} onChange={handleChange} />
-//         <input placeholder="Location" name="location" value={form.location} onChange={handleChange} />
-//         <textarea placeholder="Description" name="description" value={form.description} onChange={handleChange}></textarea>
-//         <input placeholder="Image URL" name="image" value={form.image} onChange={handleChange} />
-//         <input placeholder="Your Name" name="reporterName" value={form.reporterName} onChange={handleChange} />
-//         <input placeholder="Phone" name="reporterPhone" value={form.reporterPhone} onChange={handleChange} />
-//         <input placeholder="Email" name="reporterEmail" value={form.reporterEmail} onChange={handleChange} />
-//         {reportType === "lost" && <input placeholder="Reward (optional)" name="reward" value={form.reward} onChange={handleChange} />}
-//         <label>
-//           <input type="checkbox" name="isInjured" checked={form.isInjured} onChange={handleChange} /> Injured?
-//         </label>
-//         <input placeholder="Microchip ID" name="microchipId" value={form.microchipId} onChange={handleChange} />
-//         <button className="bg-blue-600 text-white px-4 py-2 rounded" type="submit">Submit Report</button>
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default FoundPets;
 
 

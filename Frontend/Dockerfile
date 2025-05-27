@@ -4,10 +4,10 @@ WORKDIR /app
 
 COPY package.json package-lock.json ./
 
-RUN npm install
+RUN npm install --legacy-peer-deps && npm rebuild bcrypt --build-from-source
 
 COPY . .
 
-EXPOSE 5173
+EXPOSE 5050
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]

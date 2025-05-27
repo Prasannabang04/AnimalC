@@ -19,7 +19,7 @@ function LostPets() {
     Object.keys(form).forEach((key) => formData.append(key, form[key]));
 
     try {
-      const res = await axios.post("http://localhost:3000/lost", formData);
+      const res = await axios.post("http://52.90.65.3:5050/lost", formData);
       console.log("Match results:", res.data.matches); // Debug log for matches
       setMatches(res.data.matches || []); // Ensure it's an empty array if undefined
     } catch (err) {

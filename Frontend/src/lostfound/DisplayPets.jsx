@@ -13,8 +13,8 @@ function DisplayPets() {
     const fetchPets = async () => {
       try {
         const [lostRes, foundRes] = await Promise.all([
-          axios.get("http://localhost:3000/animal?type=lost"),
-          axios.get("http://localhost:3000/animal?type=found"),
+          axios.get("http://52.90.65.3:5050/animal?type=lost"),
+          axios.get("http://52.90.65.3:5050/animal?type=found"),
         ]);
         const combined = [...lostRes.data, ...foundRes.data];
         setPets(combined);
@@ -140,69 +140,3 @@ function DisplayPets() {
 }
 
 export default DisplayPets;
-// import { useEffect, useState } from "react";
-// import axios from "axios";
-// import { useAuth } from "../auth/AuthContext";
-
-// function DisplayPets() {
-//   const { currentUser } = useAuth();
-//   const [pets, setPets] = useState([]);
-//   const [loading, setLoading] = useState(true);
-
-//   const fetchPets = async () => {
-//     try {
-//       const res = await axios.get("http://localhost:3000/animals");
-//       setPets(res.data);
-//     } catch (err) {
-//       console.error("Error loading pets", err);
-//     } finally {
-//       setLoading(false);
-//     }
-//   };
-
-//   useEffect(() => {
-//     fetchPets();
-//   }, []);
-
-//   const markAsResolved = async (id) => {
-//     try {
-//       await axios.put(`http://localhost:3000/animals/${id}`, {}, {
-//         headers: {
-//           Authorization: `Bearer ${localStorage.getItem("token")}`
-//         }
-//       });
-//       fetchPets();
-//     } catch (err) {
-//       console.error("Error resolving", err);
-//     }
-//   };
-
-//   if (loading) return <div className="text-center mt-10">Loading...</div>;
-
-//   return (
-//     <div className="max-w-6xl mx-auto mt-10 p-6">
-//       <h2 className="text-3xl font-semibold mb-6 text-center">Lost & Found Pets</h2>
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-//         {pets.map((pet) => (
-//           <div key={pet._id} className="bg-white shadow rounded p-4">
-//             <img src={pet.image} alt="pet" className="w-full h-48 object-cover mb-2 rounded" />
-//             <h3 className="text-xl font-bold">{pet.breed}</h3>
-//             <p className="text-sm text-gray-600">{pet.location}</p>
-//             <p className="text-xs text-gray-400">Reported: {new Date(pet.date).toLocaleDateString()}</p>
-
-//             {currentUser?.id === pet.userId && (
-//               <button
-//                 onClick={() => markAsResolved(pet._id)}
-//                 className="mt-2 text-blue-600 underline"
-//               >
-//                 Mark as Resolved
-//               </button>
-//             )}
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default DisplayPets;

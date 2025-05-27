@@ -10,7 +10,7 @@ const MatchPet = () => {
     const data = new FormData();
     data.append("image", image);
 
-    const res = await axios.post("http://localhost:3000/match", data);
+    const res = await axios.post("http://52.90.65.3:5050/match", data);
     setMatches(res.data.matches);
   };
 
